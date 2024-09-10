@@ -1037,7 +1037,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::minesweep.Properties.Resources.Screenshot_2024_09_04_085321;
-            this.pictureBox2.Location = new System.Drawing.Point(670, 30);
+            this.pictureBox2.Location = new System.Drawing.Point(686, 389);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1047,7 +1047,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::minesweep.Properties.Resources.Screenshot_2024_09_04_085419;
-            this.pictureBox1.Location = new System.Drawing.Point(724, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(740, 389);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(48, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
