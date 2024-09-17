@@ -17,12 +17,7 @@ namespace minesweep
         public Form1()
         {
             InitializeComponent();
-            for (int i = 0; i < 100; i++)
-            {
-                btngrid[i] = (Button)Controls["b" + (i + 1)];
-                tilegrid[i] = new tile(btngrid[i]);
-                btngrid[i].BackColor = Color.Green;
-            }
+            Reset();
         }
         bool flag = false;
 
