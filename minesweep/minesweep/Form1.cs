@@ -21,12 +21,8 @@ namespace minesweep
             {
                 btngrid[i] = (Button)Controls["b" + (i + 1)];
                 tilegrid[i] = new tile(btngrid[i]);
-            }
-            for (int i = 0; i < 100; i++)
-            {
                 btngrid[i].BackColor = Color.Green;
             }
-
         }
         bool flag = false;
 
@@ -58,6 +54,21 @@ namespace minesweep
                 button.Image = pictureBox1.Image;
             }
 
+        }
+
+        private void resetbutton_Click(object sender, EventArgs e)
+        {
+            Reset();
+        }
+
+        private void Reset()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                btngrid[i] = (Button)Controls["b" + (i + 1)];
+                tilegrid[i] = new tile(btngrid[i]);
+                btngrid[i].BackColor = Color.Green;
+            }
         }
     }
 }

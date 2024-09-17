@@ -130,12 +130,15 @@
             this.b51 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.resetbutton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // b1
             // 
+            this.b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b1.Location = new System.Drawing.Point(251, 101);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(31, 30);
@@ -145,6 +148,7 @@
             // 
             // b2
             // 
+            this.b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b2.Location = new System.Drawing.Point(278, 101);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(31, 30);
@@ -154,6 +158,7 @@
             // 
             // b3
             // 
+            this.b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b3.Location = new System.Drawing.Point(305, 101);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(31, 30);
@@ -163,6 +168,7 @@
             // 
             // b4
             // 
+            this.b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b4.Location = new System.Drawing.Point(332, 101);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(31, 30);
@@ -172,6 +178,7 @@
             // 
             // b5
             // 
+            this.b5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b5.Location = new System.Drawing.Point(358, 101);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(31, 30);
@@ -181,6 +188,7 @@
             // 
             // b15
             // 
+            this.b15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b15.Location = new System.Drawing.Point(358, 126);
             this.b15.Name = "b15";
             this.b15.Size = new System.Drawing.Size(31, 30);
@@ -190,6 +198,7 @@
             // 
             // b14
             // 
+            this.b14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b14.Location = new System.Drawing.Point(332, 126);
             this.b14.Name = "b14";
             this.b14.Size = new System.Drawing.Size(31, 30);
@@ -199,6 +208,7 @@
             // 
             // b13
             // 
+            this.b13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b13.Location = new System.Drawing.Point(305, 126);
             this.b13.Name = "b13";
             this.b13.Size = new System.Drawing.Size(31, 30);
@@ -208,6 +218,7 @@
             // 
             // b12
             // 
+            this.b12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b12.Location = new System.Drawing.Point(278, 126);
             this.b12.Name = "b12";
             this.b12.Size = new System.Drawing.Size(31, 30);
@@ -217,6 +228,7 @@
             // 
             // b11
             // 
+            this.b11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b11.Location = new System.Drawing.Point(251, 126);
             this.b11.Name = "b11";
             this.b11.Size = new System.Drawing.Size(31, 30);
@@ -226,6 +238,7 @@
             // 
             // b20
             // 
+            this.b20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b20.Location = new System.Drawing.Point(491, 126);
             this.b20.Name = "b20";
             this.b20.Size = new System.Drawing.Size(31, 30);
@@ -235,6 +248,7 @@
             // 
             // b19
             // 
+            this.b19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b19.Location = new System.Drawing.Point(465, 126);
             this.b19.Name = "b19";
             this.b19.Size = new System.Drawing.Size(31, 30);
@@ -244,6 +258,7 @@
             // 
             // b18
             // 
+            this.b18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b18.Location = new System.Drawing.Point(438, 126);
             this.b18.Name = "b18";
             this.b18.Size = new System.Drawing.Size(31, 30);
@@ -253,6 +268,7 @@
             // 
             // b17
             // 
+            this.b17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b17.Location = new System.Drawing.Point(411, 126);
             this.b17.Name = "b17";
             this.b17.Size = new System.Drawing.Size(31, 30);
@@ -262,6 +278,7 @@
             // 
             // b16
             // 
+            this.b16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b16.Location = new System.Drawing.Point(384, 126);
             this.b16.Name = "b16";
             this.b16.Size = new System.Drawing.Size(31, 30);
@@ -271,6 +288,7 @@
             // 
             // b10
             // 
+            this.b10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b10.Location = new System.Drawing.Point(491, 101);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(31, 30);
@@ -280,6 +298,7 @@
             // 
             // b9
             // 
+            this.b9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b9.Location = new System.Drawing.Point(465, 101);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(31, 30);
@@ -289,6 +308,7 @@
             // 
             // b8
             // 
+            this.b8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b8.Location = new System.Drawing.Point(438, 101);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(31, 30);
@@ -298,6 +318,7 @@
             // 
             // b7
             // 
+            this.b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b7.Location = new System.Drawing.Point(411, 101);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(31, 30);
@@ -307,6 +328,7 @@
             // 
             // b6
             // 
+            this.b6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b6.Location = new System.Drawing.Point(384, 101);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(31, 30);
@@ -316,6 +338,7 @@
             // 
             // b40
             // 
+            this.b40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b40.Location = new System.Drawing.Point(491, 178);
             this.b40.Name = "b40";
             this.b40.Size = new System.Drawing.Size(31, 30);
@@ -325,6 +348,7 @@
             // 
             // b39
             // 
+            this.b39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b39.Location = new System.Drawing.Point(465, 178);
             this.b39.Name = "b39";
             this.b39.Size = new System.Drawing.Size(31, 30);
@@ -334,6 +358,7 @@
             // 
             // b38
             // 
+            this.b38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b38.Location = new System.Drawing.Point(438, 178);
             this.b38.Name = "b38";
             this.b38.Size = new System.Drawing.Size(31, 30);
@@ -343,6 +368,7 @@
             // 
             // b37
             // 
+            this.b37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b37.Location = new System.Drawing.Point(411, 178);
             this.b37.Name = "b37";
             this.b37.Size = new System.Drawing.Size(31, 30);
@@ -352,6 +378,7 @@
             // 
             // b36
             // 
+            this.b36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b36.Location = new System.Drawing.Point(384, 178);
             this.b36.Name = "b36";
             this.b36.Size = new System.Drawing.Size(31, 30);
@@ -361,6 +388,7 @@
             // 
             // b30
             // 
+            this.b30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b30.Location = new System.Drawing.Point(491, 153);
             this.b30.Name = "b30";
             this.b30.Size = new System.Drawing.Size(31, 30);
@@ -370,6 +398,7 @@
             // 
             // b29
             // 
+            this.b29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b29.Location = new System.Drawing.Point(465, 153);
             this.b29.Name = "b29";
             this.b29.Size = new System.Drawing.Size(31, 30);
@@ -379,6 +408,7 @@
             // 
             // b28
             // 
+            this.b28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b28.Location = new System.Drawing.Point(438, 153);
             this.b28.Name = "b28";
             this.b28.Size = new System.Drawing.Size(31, 30);
@@ -388,6 +418,7 @@
             // 
             // b27
             // 
+            this.b27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b27.Location = new System.Drawing.Point(411, 153);
             this.b27.Name = "b27";
             this.b27.Size = new System.Drawing.Size(31, 30);
@@ -397,6 +428,7 @@
             // 
             // b26
             // 
+            this.b26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b26.Location = new System.Drawing.Point(384, 153);
             this.b26.Name = "b26";
             this.b26.Size = new System.Drawing.Size(31, 30);
@@ -406,6 +438,7 @@
             // 
             // b35
             // 
+            this.b35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b35.Location = new System.Drawing.Point(358, 178);
             this.b35.Name = "b35";
             this.b35.Size = new System.Drawing.Size(31, 30);
@@ -415,6 +448,7 @@
             // 
             // b34
             // 
+            this.b34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b34.Location = new System.Drawing.Point(332, 178);
             this.b34.Name = "b34";
             this.b34.Size = new System.Drawing.Size(31, 30);
@@ -424,6 +458,7 @@
             // 
             // b33
             // 
+            this.b33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b33.Location = new System.Drawing.Point(305, 178);
             this.b33.Name = "b33";
             this.b33.Size = new System.Drawing.Size(31, 30);
@@ -433,6 +468,7 @@
             // 
             // b32
             // 
+            this.b32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b32.Location = new System.Drawing.Point(278, 178);
             this.b32.Name = "b32";
             this.b32.Size = new System.Drawing.Size(31, 30);
@@ -442,6 +478,7 @@
             // 
             // b31
             // 
+            this.b31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b31.Location = new System.Drawing.Point(251, 178);
             this.b31.Name = "b31";
             this.b31.Size = new System.Drawing.Size(31, 30);
@@ -451,6 +488,7 @@
             // 
             // b25
             // 
+            this.b25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b25.Location = new System.Drawing.Point(358, 153);
             this.b25.Name = "b25";
             this.b25.Size = new System.Drawing.Size(31, 30);
@@ -460,6 +498,7 @@
             // 
             // b24
             // 
+            this.b24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b24.Location = new System.Drawing.Point(332, 153);
             this.b24.Name = "b24";
             this.b24.Size = new System.Drawing.Size(31, 30);
@@ -469,6 +508,7 @@
             // 
             // b23
             // 
+            this.b23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b23.Location = new System.Drawing.Point(305, 153);
             this.b23.Name = "b23";
             this.b23.Size = new System.Drawing.Size(31, 30);
@@ -478,6 +518,7 @@
             // 
             // b22
             // 
+            this.b22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b22.Location = new System.Drawing.Point(278, 153);
             this.b22.Name = "b22";
             this.b22.Size = new System.Drawing.Size(31, 30);
@@ -487,6 +528,7 @@
             // 
             // b21
             // 
+            this.b21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b21.Location = new System.Drawing.Point(251, 153);
             this.b21.Name = "b21";
             this.b21.Size = new System.Drawing.Size(31, 30);
@@ -496,6 +538,7 @@
             // 
             // b50
             // 
+            this.b50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b50.Location = new System.Drawing.Point(491, 203);
             this.b50.Name = "b50";
             this.b50.Size = new System.Drawing.Size(31, 30);
@@ -505,6 +548,7 @@
             // 
             // b49
             // 
+            this.b49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b49.Location = new System.Drawing.Point(465, 203);
             this.b49.Name = "b49";
             this.b49.Size = new System.Drawing.Size(31, 30);
@@ -514,6 +558,7 @@
             // 
             // b48
             // 
+            this.b48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b48.Location = new System.Drawing.Point(438, 203);
             this.b48.Name = "b48";
             this.b48.Size = new System.Drawing.Size(31, 30);
@@ -523,6 +568,7 @@
             // 
             // b47
             // 
+            this.b47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b47.Location = new System.Drawing.Point(411, 203);
             this.b47.Name = "b47";
             this.b47.Size = new System.Drawing.Size(31, 30);
@@ -532,6 +578,7 @@
             // 
             // b46
             // 
+            this.b46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b46.Location = new System.Drawing.Point(384, 203);
             this.b46.Name = "b46";
             this.b46.Size = new System.Drawing.Size(31, 30);
@@ -541,6 +588,7 @@
             // 
             // b45
             // 
+            this.b45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b45.Location = new System.Drawing.Point(358, 203);
             this.b45.Name = "b45";
             this.b45.Size = new System.Drawing.Size(31, 30);
@@ -550,6 +598,7 @@
             // 
             // b44
             // 
+            this.b44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b44.Location = new System.Drawing.Point(332, 203);
             this.b44.Name = "b44";
             this.b44.Size = new System.Drawing.Size(31, 30);
@@ -559,6 +608,7 @@
             // 
             // b43
             // 
+            this.b43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b43.Location = new System.Drawing.Point(305, 203);
             this.b43.Name = "b43";
             this.b43.Size = new System.Drawing.Size(31, 30);
@@ -568,6 +618,7 @@
             // 
             // b42
             // 
+            this.b42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b42.Location = new System.Drawing.Point(278, 203);
             this.b42.Name = "b42";
             this.b42.Size = new System.Drawing.Size(31, 30);
@@ -577,6 +628,7 @@
             // 
             // b41
             // 
+            this.b41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b41.Location = new System.Drawing.Point(251, 203);
             this.b41.Name = "b41";
             this.b41.Size = new System.Drawing.Size(31, 30);
@@ -586,6 +638,7 @@
             // 
             // b100
             // 
+            this.b100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b100.Location = new System.Drawing.Point(491, 331);
             this.b100.Name = "b100";
             this.b100.Size = new System.Drawing.Size(31, 30);
@@ -595,6 +648,7 @@
             // 
             // b99
             // 
+            this.b99.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b99.Location = new System.Drawing.Point(465, 331);
             this.b99.Name = "b99";
             this.b99.Size = new System.Drawing.Size(31, 30);
@@ -604,6 +658,7 @@
             // 
             // b98
             // 
+            this.b98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b98.Location = new System.Drawing.Point(438, 331);
             this.b98.Name = "b98";
             this.b98.Size = new System.Drawing.Size(31, 30);
@@ -613,6 +668,7 @@
             // 
             // b97
             // 
+            this.b97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b97.Location = new System.Drawing.Point(411, 331);
             this.b97.Name = "b97";
             this.b97.Size = new System.Drawing.Size(31, 30);
@@ -622,6 +678,7 @@
             // 
             // b96
             // 
+            this.b96.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b96.Location = new System.Drawing.Point(384, 331);
             this.b96.Name = "b96";
             this.b96.Size = new System.Drawing.Size(31, 30);
@@ -631,6 +688,7 @@
             // 
             // b95
             // 
+            this.b95.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b95.Location = new System.Drawing.Point(358, 331);
             this.b95.Name = "b95";
             this.b95.Size = new System.Drawing.Size(31, 30);
@@ -640,6 +698,7 @@
             // 
             // b94
             // 
+            this.b94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b94.Location = new System.Drawing.Point(332, 331);
             this.b94.Name = "b94";
             this.b94.Size = new System.Drawing.Size(31, 30);
@@ -649,6 +708,7 @@
             // 
             // b93
             // 
+            this.b93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b93.Location = new System.Drawing.Point(305, 331);
             this.b93.Name = "b93";
             this.b93.Size = new System.Drawing.Size(31, 30);
@@ -658,6 +718,7 @@
             // 
             // b92
             // 
+            this.b92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b92.Location = new System.Drawing.Point(278, 331);
             this.b92.Name = "b92";
             this.b92.Size = new System.Drawing.Size(31, 30);
@@ -667,6 +728,7 @@
             // 
             // b91
             // 
+            this.b91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b91.Location = new System.Drawing.Point(251, 331);
             this.b91.Name = "b91";
             this.b91.Size = new System.Drawing.Size(31, 30);
@@ -676,6 +738,7 @@
             // 
             // b90
             // 
+            this.b90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b90.Location = new System.Drawing.Point(491, 306);
             this.b90.Name = "b90";
             this.b90.Size = new System.Drawing.Size(31, 30);
@@ -685,6 +748,7 @@
             // 
             // b89
             // 
+            this.b89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b89.Location = new System.Drawing.Point(465, 306);
             this.b89.Name = "b89";
             this.b89.Size = new System.Drawing.Size(31, 30);
@@ -694,6 +758,7 @@
             // 
             // b88
             // 
+            this.b88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b88.Location = new System.Drawing.Point(438, 306);
             this.b88.Name = "b88";
             this.b88.Size = new System.Drawing.Size(31, 30);
@@ -703,6 +768,7 @@
             // 
             // b87
             // 
+            this.b87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b87.Location = new System.Drawing.Point(411, 306);
             this.b87.Name = "b87";
             this.b87.Size = new System.Drawing.Size(31, 30);
@@ -712,6 +778,7 @@
             // 
             // b86
             // 
+            this.b86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b86.Location = new System.Drawing.Point(384, 306);
             this.b86.Name = "b86";
             this.b86.Size = new System.Drawing.Size(31, 30);
@@ -721,6 +788,7 @@
             // 
             // b80
             // 
+            this.b80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b80.Location = new System.Drawing.Point(491, 281);
             this.b80.Name = "b80";
             this.b80.Size = new System.Drawing.Size(31, 30);
@@ -730,6 +798,7 @@
             // 
             // b79
             // 
+            this.b79.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b79.Location = new System.Drawing.Point(465, 281);
             this.b79.Name = "b79";
             this.b79.Size = new System.Drawing.Size(31, 30);
@@ -739,6 +808,7 @@
             // 
             // b78
             // 
+            this.b78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b78.Location = new System.Drawing.Point(438, 281);
             this.b78.Name = "b78";
             this.b78.Size = new System.Drawing.Size(31, 30);
@@ -748,6 +818,7 @@
             // 
             // b77
             // 
+            this.b77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b77.Location = new System.Drawing.Point(411, 281);
             this.b77.Name = "b77";
             this.b77.Size = new System.Drawing.Size(31, 30);
@@ -757,6 +828,7 @@
             // 
             // b76
             // 
+            this.b76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b76.Location = new System.Drawing.Point(384, 281);
             this.b76.Name = "b76";
             this.b76.Size = new System.Drawing.Size(31, 30);
@@ -766,6 +838,7 @@
             // 
             // b85
             // 
+            this.b85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b85.Location = new System.Drawing.Point(358, 306);
             this.b85.Name = "b85";
             this.b85.Size = new System.Drawing.Size(31, 30);
@@ -775,6 +848,7 @@
             // 
             // b84
             // 
+            this.b84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b84.Location = new System.Drawing.Point(332, 306);
             this.b84.Name = "b84";
             this.b84.Size = new System.Drawing.Size(31, 30);
@@ -784,6 +858,7 @@
             // 
             // b83
             // 
+            this.b83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b83.Location = new System.Drawing.Point(305, 306);
             this.b83.Name = "b83";
             this.b83.Size = new System.Drawing.Size(31, 30);
@@ -793,6 +868,7 @@
             // 
             // b82
             // 
+            this.b82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b82.Location = new System.Drawing.Point(278, 306);
             this.b82.Name = "b82";
             this.b82.Size = new System.Drawing.Size(31, 30);
@@ -802,6 +878,7 @@
             // 
             // b81
             // 
+            this.b81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b81.Location = new System.Drawing.Point(251, 306);
             this.b81.Name = "b81";
             this.b81.Size = new System.Drawing.Size(31, 30);
@@ -811,6 +888,7 @@
             // 
             // b75
             // 
+            this.b75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b75.Location = new System.Drawing.Point(358, 281);
             this.b75.Name = "b75";
             this.b75.Size = new System.Drawing.Size(31, 30);
@@ -820,6 +898,7 @@
             // 
             // b74
             // 
+            this.b74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b74.Location = new System.Drawing.Point(332, 281);
             this.b74.Name = "b74";
             this.b74.Size = new System.Drawing.Size(31, 30);
@@ -829,6 +908,7 @@
             // 
             // b73
             // 
+            this.b73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b73.Location = new System.Drawing.Point(305, 281);
             this.b73.Name = "b73";
             this.b73.Size = new System.Drawing.Size(31, 30);
@@ -838,6 +918,7 @@
             // 
             // b72
             // 
+            this.b72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b72.Location = new System.Drawing.Point(278, 281);
             this.b72.Name = "b72";
             this.b72.Size = new System.Drawing.Size(31, 30);
@@ -847,6 +928,7 @@
             // 
             // b71
             // 
+            this.b71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b71.Location = new System.Drawing.Point(251, 281);
             this.b71.Name = "b71";
             this.b71.Size = new System.Drawing.Size(31, 30);
@@ -856,6 +938,7 @@
             // 
             // b70
             // 
+            this.b70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b70.Location = new System.Drawing.Point(491, 254);
             this.b70.Name = "b70";
             this.b70.Size = new System.Drawing.Size(31, 30);
@@ -865,6 +948,7 @@
             // 
             // b69
             // 
+            this.b69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b69.Location = new System.Drawing.Point(465, 254);
             this.b69.Name = "b69";
             this.b69.Size = new System.Drawing.Size(31, 30);
@@ -874,6 +958,7 @@
             // 
             // b68
             // 
+            this.b68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b68.Location = new System.Drawing.Point(438, 254);
             this.b68.Name = "b68";
             this.b68.Size = new System.Drawing.Size(31, 30);
@@ -883,6 +968,7 @@
             // 
             // b67
             // 
+            this.b67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b67.Location = new System.Drawing.Point(411, 254);
             this.b67.Name = "b67";
             this.b67.Size = new System.Drawing.Size(31, 30);
@@ -892,6 +978,7 @@
             // 
             // b66
             // 
+            this.b66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b66.Location = new System.Drawing.Point(384, 254);
             this.b66.Name = "b66";
             this.b66.Size = new System.Drawing.Size(31, 30);
@@ -901,6 +988,7 @@
             // 
             // b60
             // 
+            this.b60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b60.Location = new System.Drawing.Point(491, 229);
             this.b60.Name = "b60";
             this.b60.Size = new System.Drawing.Size(31, 30);
@@ -910,6 +998,7 @@
             // 
             // b59
             // 
+            this.b59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b59.Location = new System.Drawing.Point(465, 229);
             this.b59.Name = "b59";
             this.b59.Size = new System.Drawing.Size(31, 30);
@@ -919,6 +1008,7 @@
             // 
             // b58
             // 
+            this.b58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b58.Location = new System.Drawing.Point(438, 229);
             this.b58.Name = "b58";
             this.b58.Size = new System.Drawing.Size(31, 30);
@@ -928,6 +1018,7 @@
             // 
             // b57
             // 
+            this.b57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b57.Location = new System.Drawing.Point(411, 229);
             this.b57.Name = "b57";
             this.b57.Size = new System.Drawing.Size(31, 30);
@@ -937,6 +1028,7 @@
             // 
             // b56
             // 
+            this.b56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b56.Location = new System.Drawing.Point(384, 229);
             this.b56.Name = "b56";
             this.b56.Size = new System.Drawing.Size(31, 30);
@@ -946,6 +1038,7 @@
             // 
             // b65
             // 
+            this.b65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b65.Location = new System.Drawing.Point(358, 254);
             this.b65.Name = "b65";
             this.b65.Size = new System.Drawing.Size(31, 30);
@@ -955,6 +1048,7 @@
             // 
             // b64
             // 
+            this.b64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b64.Location = new System.Drawing.Point(332, 254);
             this.b64.Name = "b64";
             this.b64.Size = new System.Drawing.Size(31, 30);
@@ -964,6 +1058,7 @@
             // 
             // b63
             // 
+            this.b63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b63.Location = new System.Drawing.Point(305, 254);
             this.b63.Name = "b63";
             this.b63.Size = new System.Drawing.Size(31, 30);
@@ -973,6 +1068,7 @@
             // 
             // b62
             // 
+            this.b62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b62.Location = new System.Drawing.Point(278, 254);
             this.b62.Name = "b62";
             this.b62.Size = new System.Drawing.Size(31, 30);
@@ -982,6 +1078,7 @@
             // 
             // b61
             // 
+            this.b61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b61.Location = new System.Drawing.Point(251, 254);
             this.b61.Name = "b61";
             this.b61.Size = new System.Drawing.Size(31, 30);
@@ -991,6 +1088,7 @@
             // 
             // b55
             // 
+            this.b55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b55.Location = new System.Drawing.Point(358, 229);
             this.b55.Name = "b55";
             this.b55.Size = new System.Drawing.Size(31, 30);
@@ -1000,6 +1098,7 @@
             // 
             // b54
             // 
+            this.b54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b54.Location = new System.Drawing.Point(332, 229);
             this.b54.Name = "b54";
             this.b54.Size = new System.Drawing.Size(31, 30);
@@ -1009,6 +1108,7 @@
             // 
             // b53
             // 
+            this.b53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b53.Location = new System.Drawing.Point(305, 229);
             this.b53.Name = "b53";
             this.b53.Size = new System.Drawing.Size(31, 30);
@@ -1018,6 +1118,7 @@
             // 
             // b52
             // 
+            this.b52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b52.Location = new System.Drawing.Point(278, 229);
             this.b52.Name = "b52";
             this.b52.Size = new System.Drawing.Size(31, 30);
@@ -1027,6 +1128,7 @@
             // 
             // b51
             // 
+            this.b51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.b51.Location = new System.Drawing.Point(251, 229);
             this.b51.Name = "b51";
             this.b51.Size = new System.Drawing.Size(31, 30);
@@ -1054,11 +1156,32 @@
             this.pictureBox1.TabIndex = 103;
             this.pictureBox1.TabStop = false;
             // 
+            // resetbutton
+            // 
+            this.resetbutton.Location = new System.Drawing.Point(366, 381);
+            this.resetbutton.Name = "resetbutton";
+            this.resetbutton.Size = new System.Drawing.Size(49, 57);
+            this.resetbutton.TabIndex = 105;
+            this.resetbutton.Text = "reset";
+            this.resetbutton.UseVisualStyleBackColor = true;
+            this.resetbutton.Click += new System.EventHandler(this.resetbutton_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(740, 331);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 52);
+            this.button1.TabIndex = 106;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.resetbutton);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.b100);
@@ -1273,6 +1396,8 @@
         private System.Windows.Forms.Button b51;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button resetbutton;
+        private System.Windows.Forms.Button button1;
     }
 }
 
