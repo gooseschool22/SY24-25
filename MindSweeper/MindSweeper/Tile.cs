@@ -15,13 +15,50 @@ namespace MindSweeper
         private Boolean m_dug;
         private Boolean m_mine;
         private int m_nearby;
+        private int m_flagnum;
+        private Image m_flagimage;
+        private Image m_mineimage;
         public Tile(Button b)
         {
             m_b = b;
             m_b.BackColor = Color.Green;
         }
-        public void SetMine(Boolean b) { m_mine = b; }
-        public void SetDug(Boolean b) { m_dug = b; }
-        public void SetFlag (Boolean b) { m_flag = b; }
+        public void SetNearby(int n)
+        {
+            m_nearby = n;
+            m_b.Text = m_nearby.ToString();
+        }
+        public void FlagCount(int f)
+        {
+            m_flagnum = f;
+        }
+        public void SetFlagImage(Image flagimage) { m_flagimage = flagimage; }
+        public void SetMineImage(Image mineimage) { m_mineimage = mineimage; }
+        public void SetDug(Boolean b)
+        {
+            m_dug = true;
+            if (m_mine)
+            {
+                m_b.BackgroundImage = m_mineimage;
+                
+                
+            }
+
+            m_b.BackColor = Color.Tan;
+        }
+
+        public void SetMine(Boolean b)
+        {
+            m_mine = b;
+        }
+        public Boolean GetMine() { return m_mine; }
+        public void SetFlag()
+        {
+            m_flag = !m_flag;
+            if (m_flag)
+                m_b.BackgroundImage = m_flagimage;
+            else
+                m_b.BackgroundImage = null;
+        }
     }
 }
