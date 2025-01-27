@@ -57,6 +57,11 @@
             this.bitc5 = new System.Windows.Forms.TextBox();
             this.clearbutton = new System.Windows.Forms.Button();
             this.shiftLB = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ShiftRB = new System.Windows.Forms.Button();
+            this.andB = new System.Windows.Forms.Button();
+            this.orB = new System.Windows.Forms.Button();
+            this.xorB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -373,7 +378,7 @@
             // 
             // shiftLB
             // 
-            this.shiftLB.Location = new System.Drawing.Point(60, 286);
+            this.shiftLB.Location = new System.Drawing.Point(12, 12);
             this.shiftLB.Name = "shiftLB";
             this.shiftLB.Size = new System.Drawing.Size(66, 66);
             this.shiftLB.TabIndex = 28;
@@ -381,11 +386,66 @@
             this.shiftLB.UseVisualStyleBackColor = true;
             this.shiftLB.Click += new System.EventHandler(this.shiftLB_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(741, 390);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(66, 66);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "shift left";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ShiftRB
+            // 
+            this.ShiftRB.Location = new System.Drawing.Point(84, 12);
+            this.ShiftRB.Name = "ShiftRB";
+            this.ShiftRB.Size = new System.Drawing.Size(66, 66);
+            this.ShiftRB.TabIndex = 30;
+            this.ShiftRB.Text = "shift right";
+            this.ShiftRB.UseVisualStyleBackColor = true;
+            this.ShiftRB.Click += new System.EventHandler(this.ShiftRB_Click);
+            // 
+            // andB
+            // 
+            this.andB.Location = new System.Drawing.Point(156, 12);
+            this.andB.Name = "andB";
+            this.andB.Size = new System.Drawing.Size(66, 66);
+            this.andB.TabIndex = 31;
+            this.andB.Text = "and";
+            this.andB.UseVisualStyleBackColor = true;
+            this.andB.Click += new System.EventHandler(this.andB_Click);
+            // 
+            // orB
+            // 
+            this.orB.Location = new System.Drawing.Point(228, 12);
+            this.orB.Name = "orB";
+            this.orB.Size = new System.Drawing.Size(66, 66);
+            this.orB.TabIndex = 32;
+            this.orB.Text = "or";
+            this.orB.UseVisualStyleBackColor = true;
+            this.orB.Click += new System.EventHandler(this.orB_Click);
+            // 
+            // xorB
+            // 
+            this.xorB.Location = new System.Drawing.Point(300, 12);
+            this.xorB.Name = "xorB";
+            this.xorB.Size = new System.Drawing.Size(66, 66);
+            this.xorB.TabIndex = 33;
+            this.xorB.Text = "xor";
+            this.xorB.UseVisualStyleBackColor = true;
+            this.xorB.Click += new System.EventHandler(this.xorB_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.xorB);
+            this.Controls.Add(this.orB);
+            this.Controls.Add(this.andB);
+            this.Controls.Add(this.ShiftRB);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.shiftLB);
             this.Controls.Add(this.clearbutton);
             this.Controls.Add(this.bitc8);
@@ -454,6 +514,11 @@
         private System.Windows.Forms.TextBox bitc5;
         private System.Windows.Forms.Button clearbutton;
         private System.Windows.Forms.Button shiftLB;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ShiftRB;
+        private System.Windows.Forms.Button andB;
+        private System.Windows.Forms.Button orB;
+        private System.Windows.Forms.Button xorB;
     }
 }
 

@@ -111,14 +111,64 @@ namespace binary_thingy_mabob
 
         private void shiftLB_Click(object sender, EventArgs e)
         {
+            bits[0] = 0;
+            for (int i = bits.Length-1; i > 0; i--)
+            {
+                bits[i] = bits[i - 1];
+            }
+            calc();
+            update();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int count = 0;
             for (int i = 0; i < bits.Length; i++)
             {
-                if (bits[0] == 1)
-                {
-                    bits[i+1] = 1;
-                    bits[i] = 0;
-                    bits[i+2] = 0;
-                }
+                if (bits[i] == 1) { count++; }
+            }
+            totallabel.Text = count.ToString();
+        }
+
+        private void ShiftRB_Click(object sender, EventArgs e)
+        {
+            bits[bits.Length - 1] = 0;
+            for (int i = 0;i < bits.Length-1; i++)
+            {
+                bits[i] = bits[i+1];
+            }
+            calc();
+            update();
+        }
+
+        private void andB_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < bits.Length; i++)
+            {
+                    if (bits[i] == 1 && bitsB[i] == 1) { bitsC[i] = 1; }
+            }
+            calc();
+            update();
+        }
+
+        private void orB_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < bits.Length; i++)
+            {
+                if (bits[i] == 0 && bitsB[i] == 0) { bitsC[i] = 0; }
+                else { bitsC[i] = 1; }
+            }
+            calc();
+            update();
+        }
+
+        private void xorB_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < bits.Length; i++)
+            {
+                if (bits[i] == 0 && bitsB[i] == 0) { bitsC[i] = 0; }
+                else if (bits[i] == 1 && bitsB[i] == 1) { bitsC[i] = 0; }
+                else { bitsC[i] = 1; }
             }
             calc();
             update();
