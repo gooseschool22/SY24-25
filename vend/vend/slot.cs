@@ -14,12 +14,17 @@ namespace vend
         {
             total = 0;
         }
-        public void insertcoin(object coin) 
+        public void insertcoin(object coin)
+        { 
+            if (coin == "quarter") total += 0.25;
+            if (coin == "dime") total += 0.10;
+            if (coin == "nickel") total += 0.05;
+            if (coin == "penny") total += 0.01;
+        }
+        public double totaltotal() { return total; }
+        public void buy(double p)
         {
-            if (coin == "quarter") { total += 0.25; }
-            if (coin == "dime") { total += 0.10; }
-            if (coin == "nickel") { total += 0.05; }
-            if (coin == "penny") { total += 0.01; }
+            total -= p;
         }
     }
 }

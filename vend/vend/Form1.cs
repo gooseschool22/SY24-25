@@ -9,6 +9,7 @@ namespace vend
         int[] products = new int[12];
         double total = 0;
         slot coinslot = new slot();
+        products prods = new products();
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +36,22 @@ namespace vend
         private void purchaseB_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            prods.addproduct("Funyuns", 10);
+            prods.addproduct("Fritos", 10);
+            prods.addproduct("Pop Corners", 10);
+            prods.addproduct("Cheetos", 10);
+            prods.addproduct("Doritos", 10);
+            prods.addproduct("Lays", 10);
+            prods.addproduct("Pepsi", 10);
+            prods.addproduct("Dr. Pepper", 10);
+            prods.addproduct("Coca-Cola", 10);
+            prods.addproduct("Prime", 10);
+            prods.addproduct("Sprite", 10);
+            prods.addproduct("Mug Root Beer", 10);
         }
     }
 }

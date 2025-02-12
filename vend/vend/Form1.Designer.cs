@@ -50,6 +50,18 @@
             this.funyunB = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.moneyLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.productImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,6 +145,7 @@
             // 
             this.MUGROOTBEER.BackgroundImage = global::vend.Properties.Resources._9375f38f03d06a5600ff64a98a83a753;
             this.MUGROOTBEER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MUGROOTBEER.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.MUGROOTBEER.Location = new System.Drawing.Point(336, 228);
             this.MUGROOTBEER.Name = "MUGROOTBEER";
             this.MUGROOTBEER.Size = new System.Drawing.Size(89, 87);
@@ -146,6 +159,7 @@
             // 
             this.primeB.BackgroundImage = global::vend.Properties.Resources.images__8_;
             this.primeB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.primeB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.primeB.Location = new System.Drawing.Point(336, 135);
             this.primeB.Name = "primeB";
             this.primeB.Size = new System.Drawing.Size(89, 87);
@@ -159,6 +173,8 @@
             // 
             this.drpepperB.BackgroundImage = global::vend.Properties.Resources._2469__23972;
             this.drpepperB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.drpepperB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
+            this.drpepperB.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.drpepperB.Location = new System.Drawing.Point(336, 42);
             this.drpepperB.Name = "drpepperB";
             this.drpepperB.Size = new System.Drawing.Size(89, 87);
@@ -172,6 +188,7 @@
             // 
             this.spriteB.BackgroundImage = global::vend.Properties.Resources.images__9_;
             this.spriteB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.spriteB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.spriteB.Location = new System.Drawing.Point(241, 228);
             this.spriteB.Name = "spriteB";
             this.spriteB.Size = new System.Drawing.Size(89, 87);
@@ -185,6 +202,7 @@
             // 
             this.cokeB.BackgroundImage = global::vend.Properties.Resources.images__7_;
             this.cokeB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cokeB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.cokeB.Location = new System.Drawing.Point(241, 135);
             this.cokeB.Name = "cokeB";
             this.cokeB.Size = new System.Drawing.Size(89, 87);
@@ -199,6 +217,7 @@
             // 
             this.pepsiB.BackgroundImage = global::vend.Properties.Resources.images__6_;
             this.pepsiB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pepsiB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.pepsiB.Location = new System.Drawing.Point(241, 42);
             this.pepsiB.Name = "pepsiB";
             this.pepsiB.Size = new System.Drawing.Size(89, 87);
@@ -212,6 +231,7 @@
             // 
             this.laysB.BackgroundImage = global::vend.Properties.Resources.images__5_;
             this.laysB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.laysB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.laysB.Location = new System.Drawing.Point(117, 228);
             this.laysB.Name = "laysB";
             this.laysB.Size = new System.Drawing.Size(89, 87);
@@ -225,6 +245,7 @@
             // 
             this.cheetoB.BackgroundImage = global::vend.Properties.Resources._81YKWD4qEfS__AC_UF894_1000_QL80_;
             this.cheetoB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cheetoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.01F);
             this.cheetoB.Location = new System.Drawing.Point(117, 135);
             this.cheetoB.Name = "cheetoB";
             this.cheetoB.Size = new System.Drawing.Size(89, 87);
@@ -238,6 +259,7 @@
             // 
             this.fritoB.BackgroundImage = global::vend.Properties.Resources._91Xnq3ur84L__AC_UF894_1000_QL80_;
             this.fritoB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.fritoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.01F);
             this.fritoB.Location = new System.Drawing.Point(117, 42);
             this.fritoB.Name = "fritoB";
             this.fritoB.Size = new System.Drawing.Size(89, 87);
@@ -251,6 +273,7 @@
             // 
             this.doritoB.BackgroundImage = global::vend.Properties.Resources.images__4_;
             this.doritoB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.doritoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.1F);
             this.doritoB.Location = new System.Drawing.Point(22, 228);
             this.doritoB.Name = "doritoB";
             this.doritoB.Size = new System.Drawing.Size(89, 87);
@@ -264,6 +287,7 @@
             // 
             this.popcornerB.BackgroundImage = global::vend.Properties.Resources.images__3_;
             this.popcornerB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.popcornerB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.01F);
             this.popcornerB.Location = new System.Drawing.Point(22, 135);
             this.popcornerB.Name = "popcornerB";
             this.popcornerB.Size = new System.Drawing.Size(89, 87);
@@ -286,6 +310,7 @@
             // 
             this.funyunB.BackgroundImage = global::vend.Properties.Resources._91zYyU9bWDL;
             this.funyunB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.funyunB.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.01F);
             this.funyunB.Location = new System.Drawing.Point(22, 42);
             this.funyunB.Name = "funyunB";
             this.funyunB.Size = new System.Drawing.Size(89, 87);
@@ -315,11 +340,131 @@
             this.moneyLabel.TabIndex = 21;
             this.moneyLabel.Text = "0";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(371, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(21, 16);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "10";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(275, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 16);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "10";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(275, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(21, 16);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "10";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(371, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 16);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "9";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(371, 209);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(21, 16);
+            this.label6.TabIndex = 26;
+            this.label6.Text = "10";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(275, 209);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(21, 16);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "10";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(58, 209);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(21, 16);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "10";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(154, 209);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(21, 16);
+            this.label9.TabIndex = 32;
+            this.label9.Text = "10";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(154, 122);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(14, 16);
+            this.label10.TabIndex = 31;
+            this.label10.Text = "8";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(58, 122);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(21, 16);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "10";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(58, 23);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(21, 16);
+            this.label12.TabIndex = 29;
+            this.label12.Text = "10";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(154, 23);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(21, 16);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "10";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.moneyLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pennyI);
@@ -343,7 +488,8 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.funyunB);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "wasd";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.productImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -374,6 +520,18 @@
         private System.Windows.Forms.Button pennyI;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label moneyLabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
     }
 }
 
