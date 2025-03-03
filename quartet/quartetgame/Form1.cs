@@ -45,16 +45,69 @@ namespace quartetgame
         carcard H2 = new carcard("H2", "Alfa Romeo GT", 243, 6.7, 240, 3179, 6, 6400);
         carcard H3 = new carcard("H3", "Pontiac GTO", 280, 5.7, 5970, 400, 8, 5200);
         carcard H4 = new carcard("H4", "BMW M5", 250, 4.7, 4999, 507, 10, 7750);
+
+        List<carcard> list = new List<carcard>();
+
+        deck d;
+        hand h1 = new hand();
+        hand h2 = new hand();
+        hand h3 = new hand();
+        hand h4 = new hand();
         public Form1()
         {
             InitializeComponent();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            list.Add(A1);
+            list.Add(A2);
+            list.Add(A3);
+            list.Add(A4);
+            list.Add(B1);
+            list.Add(B2);
+            list.Add(B3);
+            list.Add(B4);
+            list.Add(C1);
+            list.Add(C2);
+            list.Add(C3);
+            list.Add(C4);
+            list.Add(D1);
+            list.Add(D2);
+            list.Add(D3);
+            list.Add(D4);
+            list.Add(E1);
+            list.Add(E2);
+            list.Add(E3);
+            list.Add(E4);
+            list.Add(F1);
+            list.Add(F2);
+            list.Add(F3);
+            list.Add(F4);
+            list.Add(G1);
+            list.Add(G2);
+            list.Add(G3);
+            list.Add(G4);
+            list.Add(H1);
+            list.Add(H2);
+            list.Add(H3);
+            list.Add(H4);
+            d = new deck(list);
+            d.shuffle();
         }
         private void showcard(carcard c) 
         {
+            if (c == null)
+            {
+                carpic1.Image = null;
+                nameT.Text = string.Empty;
+                maxspeedT.Text = string.Empty;
+                zerotosixtyT.Text = string.Empty;
+                hpT.Text = string.Empty;
+                ccT.Text = string.Empty;
+                cylindersT.Text = string.Empty;
+                rpmT.Text = string.Empty;
+                return;
+            }
             carpic1.Load(c.id + ".png");
             nameT.Text = c.name;
             maxspeedT.Text = c.maxspeed.ToString();
@@ -64,12 +117,74 @@ namespace quartetgame
             cylindersT.Text = c.cylinders.ToString();
             rpmT.Text = c.RPM.ToString();
         }
+        private void showcard2(carcard c)
+        {
+            carpic2.Load(c.id + ".png");
+            nameT2.Text = c.name;
+            maxspeedT2.Text = c.maxspeed.ToString();
+            zerotosixtyT2.Text = c.zerotosixty.ToString();
+            hpT2.Text = c.hp.ToString();
+            ccT2.Text = c.cc.ToString();
+            cylindersT2.Text = c.cylinders.ToString();
+            rpmT2.Text = c.RPM.ToString();
+        }
+        private void showcard3(carcard c)
+        {
+            carpic3.Load(c.id + ".png");
+            nameT3.Text = c.name;
+            maxspeedT3.Text = c.maxspeed.ToString();
+            zerotosixtyT3.Text = c.zerotosixty.ToString();
+            hpT3.Text = c.hp.ToString();
+            ccT3.Text = c.cc.ToString();
+            cylindersT3.Text = c.cylinders.ToString();
+            rpmT3.Text = c.RPM.ToString();
+        }
+        private void showcard4(carcard c)
+        {
+            carpic4.Load(c.id + ".png");
+            nameT4.Text = c.name;
+            maxspeedT4.Text = c.maxspeed.ToString();
+            zerotosixtyT4.Text = c.zerotosixty.ToString();
+            hpT4.Text = c.hp.ToString();
+            ccT4.Text = c.cc.ToString();
+            cylindersT4.Text = c.cylinders.ToString();
+            rpmT4.Text = c.RPM.ToString();
+        }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void card1B_Click(object sender, EventArgs e)
         {
             //list of ones that dont work
-            //b2, b3, b4, c3, c4, d2, e1, e3, f2, f3, g4
-            showcard(A1);
+            showcard(h1.topcard());
+        }
+
+        private void card2B_click(object sender, EventArgs e)
+        {
+            showcard2(h2.topcard());
+        }
+
+        private void card3B_Click(object sender, EventArgs e)
+        {
+            showcard3(h3.topcard());
+        }
+
+        private void card4B_Click(object sender, EventArgs e)
+        {
+            showcard4(h4.topcard());
+        }
+
+        private void dealB_Click(object sender, EventArgs e)
+        {
+            //shuffle deck
+            d.shuffle();
+
+            //deal cards
+            while(!d.IsEmpty())
+            {
+            h1.add(d.getcard(0));
+            h2.add(d.getcard(0));
+            h3.add(d.getcard(0));
+            h4.add(d.getcard(0));
+            }
         }
     }
 }
