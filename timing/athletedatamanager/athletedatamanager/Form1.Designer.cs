@@ -40,16 +40,16 @@
             // dgvAthletes
             // 
             this.dgvAthletes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAthletes.Location = new System.Drawing.Point(190, 25);
+            this.dgvAthletes.Location = new System.Drawing.Point(-1, -1);
             this.dgvAthletes.Name = "dgvAthletes";
             this.dgvAthletes.RowHeadersWidth = 51;
             this.dgvAthletes.RowTemplate.Height = 24;
-            this.dgvAthletes.Size = new System.Drawing.Size(241, 223);
+            this.dgvAthletes.Size = new System.Drawing.Size(804, 411);
             this.dgvAthletes.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(190, 246);
+            this.btnAdd.Location = new System.Drawing.Point(547, 419);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(58, 23);
             this.btnAdd.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(279, 246);
+            this.btnEdit.Location = new System.Drawing.Point(636, 419);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(58, 23);
             this.btnEdit.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(373, 246);
+            this.btnDelete.Location = new System.Drawing.Point(730, 419);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(58, 23);
             this.btnDelete.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(84, 25);
+            this.txtSearch.Location = new System.Drawing.Point(63, 416);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(100, 22);
             this.txtSearch.TabIndex = 4;
@@ -88,7 +88,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 28);
+            this.label1.Location = new System.Drawing.Point(6, 419);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 5;
