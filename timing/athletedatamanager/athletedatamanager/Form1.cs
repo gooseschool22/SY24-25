@@ -18,6 +18,8 @@ namespace athletedatamanager
         public Form1()
         {
             InitializeComponent();
+            stopwatch form2 = new stopwatch();
+            form2.Show(); // This will display the second form
             // Initialize the DatabaseHelper with the XML file path. Make sure athletes.xml is in the same directory as the executable, or specify the full path.
             _dbHelper = new DatabaseHelper("athletes.xml");
             LoadAthletes();
@@ -119,6 +121,11 @@ namespace athletedatamanager
             a.BibNumber.ToLower().Contains(searchText));
             // Display the filtered athletes in the DataGridView.
             dgvAthletes.DataSource = filteredAthletes;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
